@@ -1,0 +1,105 @@
+#wp_do-ActionBox { 
+    width: 300px;
+    position: absolute;
+    background: transparent url(../img/bg.png) scroll repeat-x top left;
+    border: solid 1px #000;
+    -moz-border-radius: 8px;
+    display: none;
+    padding: 5px;
+    color: #FFF;
+    font-family: Arial;
+    -moz-box-shadow: 1px 1px 2px #333;
+    -webkit-box-shadow: 1px 1px 2px #333;
+    box-shadow: 1px 1px 2px #333;
+}
+
+#wp_do-ActionBox kbd {
+    background: none;
+}
+
+#wp_do-ActionBox legend {
+    display: none;
+}
+
+#wp_do-ActionBox fieldset {
+    border: none;
+    text-align: center;
+}
+
+#wp_do-ActionBoxAction  {
+    border: none;
+    padding: 2px 5px;
+    border-top: solid 1px #333;
+    border-left: solid 1px #333;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    background: #FFF;
+}
+
+#wp_do-ActionBox label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+#wp_do-ActionBox .note {
+    color: #AAA;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* jQuery Autocomplete */
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+    -moz-border-radius: 0px 8px 8px 8px;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+    text-align: left;
+	cursor: default;
+	display: block;
+    text-transform: capitalize;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #FF3300;
+	color: white;
+}

@@ -1,0 +1,24 @@
+Wordpress Do
+
+Based on the Apple's Quicksivler <http://blacktree.com/?quicksilver> and Gnome's Do <http://do.davebsd.com/>, Wordpress Do is a quick search tool and action manager. With Wordpress Do you can quickly access all your posts, pages and admin actions with a few keystrokes.
+
+With a single keystroke ('/', on both front-end and backend) you bring up WP-Do's dialog and can readly start typing your commands.
+
+@CHANGELOG
+- 2010-09-22 Initial commit
+
+@TODO
+- Add options pane
+- Make launching keystroke configurable
+- Search for other post types (custom post types)
+- Manage custom taxonomies
+- Portuguese (pt_BR) i18n
+- French (fr_FR) i18n
+- New dialog layout
+
+Please report any bugs or suggestions to jseidl@wroot.org
+
+This plugin implements the following jQuery libraries
+- jQuery (Wordpress Native)
+- jQuery Hotkeys (Replaces Wordpress Native - too outdated) <http://code.google.com/p/js-hotkeys/>
+- jQuery Autocomplete (Standalone) <http://bassistance.de/jquery-plugins/jquery-plugin-autocomplete/>
